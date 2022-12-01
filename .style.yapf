@@ -10,3 +10,4 @@ indent_width = 4
 join_multiple_lines = false
 spaces_before_comment = 4
 split_before_logical_operator = true
+split_complex_comprehension = false

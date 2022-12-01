@@ -28,8 +28,7 @@ def get_puzzle_input(filename=None, day=None, cast=None, oneline=False):
     if filename:
         day = int(filename.split('/')[-1][3:5])
     if not day:
-        raise ValueError(
-            "get_puzzle_data() must be called with either filename or day")
+        raise ValueError("get_puzzle_data() must be called with either filename or day")
     puzzle_data_file = root_path.joinpath('data', f'day{day:02}_input.txt')
     # Download puzzle data (if needed)
     if not puzzle_data_file.exists():
