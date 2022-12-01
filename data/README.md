@@ -1,0 +1,1 @@
+Folder to store puzzle inputs (downloaded automatically, see README.md for more details)
