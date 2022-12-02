@@ -3,19 +3,15 @@
 
 import itertools
 
-import ipdb
-
 from common.meta_utils import get_puzzle_input
 
 
 def part1(calories_list):
-    #return res
     elf_calories = list(map(sum, calories_list))
     return max(elf_calories)
 
 
 def part2(calories_list):
-    #return res
     elf_calories = list(map(sum, calories_list))
     elf_calories.sort()
     return sum(elf_calories[-3:])
