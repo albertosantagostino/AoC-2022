@@ -5,7 +5,7 @@ description = "Advent of Code 2022 solutions"
 authors = ["Alberto Santagostino"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
 requests = "^2.28.1"
 numpy = "^1.23.5"
 

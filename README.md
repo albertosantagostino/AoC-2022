@@ -6,6 +6,7 @@
 | ------------------------------------------ | :-: | :-: | :--------------------------: | :--: |
 | [01](https://adventofcode.com/2022/day/1)  | ⭐  | ⭐  | [day01.py](src/day01.py)     | 🟢🟢 |
 | [02](https://adventofcode.com/2022/day/2)  | ⭐  | ⭐  | [day02.py](src/day02.py)     | 🟢🟢 |
+| [03](https://adventofcode.com/2022/day/3)  | ⭐  | ⭐  | [day02.py](src/day03.py)     | 🟢🟢 |
 
 <sub>🟢 < 1 day | 🟡 1÷7 days | 🟠 = 7÷30 days | 💤 > 30 days</sub>
 
@@ -13,7 +14,7 @@
 
 ## How to run
 
-`Python 3.8` and `poetry` required. From the root folder:
+`Python 3.9` and `poetry` required. From the root folder:
 
 ````bash
 # Prepare virtualenv (will be placed at .venv/). Only needed the first time
@@ -21,7 +22,7 @@ poetry install
 # Activate the virtualenv
 source .venv/bin/activate
 # Run the solution
-python3.8 src/day__.py
+python3.9 src/day__.py
 ````
 
 The script `src/day00_template.py` is a template  
