@@ -6,7 +6,8 @@
 | ------------------------------------------ | :-: | :-: | :--------------------------: | :--: |
 | [01](https://adventofcode.com/2022/day/1)  | ⭐  | ⭐  | [day01.py](src/day01.py)     | 🟢🟢 |
 | [02](https://adventofcode.com/2022/day/2)  | ⭐  | ⭐  | [day02.py](src/day02.py)     | 🟢🟢 |
-| [03](https://adventofcode.com/2022/day/3)  | ⭐  | ⭐  | [day02.py](src/day03.py)     | 🟢🟢 |
+| [03](https://adventofcode.com/2022/day/3)  | ⭐  | ⭐  | [day03.py](src/day03.py)     | 🟢🟢 |
+| [04](https://adventofcode.com/2022/day/4)  | ⭐  | ⭐  | [day04.py](src/day04.py)     | 🟢🟢 |
 
 <sub>🟢 < 1 day | 🟡 1÷7 days | 🟠 = 7÷30 days | 💤 > 30 days</sub>
 
