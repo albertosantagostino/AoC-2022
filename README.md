@@ -8,10 +8,16 @@
 | [02](https://adventofcode.com/2022/day/2)  | ⭐  | ⭐  | [day02.py](src/day02.py)     | 🟢🟢 |
 | [03](https://adventofcode.com/2022/day/3)  | ⭐  | ⭐  | [day03.py](src/day03.py)     | 🟢🟢 |
 | [04](https://adventofcode.com/2022/day/4)  | ⭐  | ⭐  | [day04.py](src/day04.py)     | 🟢🟢 |
+| [05](https://adventofcode.com/2022/day/5)  | ⭐  | ⭐  | [day05.py](src/day05.py)     | 🟢🟢 |
 
 <sub>🟢 < 1 day | 🟡 1÷7 days | 🟠 = 7÷30 days | 💤 > 30 days</sub>
 
 </div>
+
+## Suggested Christmas songs 🔔
+
+- [Chiron Beta Prime 🤖](https://www.youtube.com/watch?v=LUoDmRM2aJ0)
+- [The Night Santa Went Crazy 🗡️](https://www.youtube.com/watch?v=0FJU4GrXztE)
 
 ## How to run
 
