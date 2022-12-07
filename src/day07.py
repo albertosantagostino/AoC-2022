@@ -13,17 +13,17 @@ def part1(tree, threshold):
     return total_size
 
 
-def part2(tree, needed_space, total_disk):
-    dir_sizes = {}
+def part2(tree, needed_space, total_disk_size):
+    dirs = []
     for node in traverse_tree(tree):
         if node.isdir():
-            dir_sizes[node.name] = node.size
-    dir_sizes = dict(sorted(dir_sizes.items(), key=lambda item: item[1]))
-    space_to_free = needed_space - (total_disk - dir_sizes['/'])
-    return [vv for vv in dir_sizes.values() if vv > space_to_free][0]
+            dirs.append(node.size)
+    dirs.sort()
+    space_to_free = needed_space - (total_disk_size - dirs[-1])
+    return [vv for vv in dirs if vv > space_to_free][0]
 
 
-def create_tree(puzzle_input):
+def create_filesystem_tree(puzzle_input):
     tree = FSNode(name='/', mode=FSMode.DIR)
 
     for line in puzzle_input:
@@ -51,7 +51,7 @@ def create_tree(puzzle_input):
 
 if __name__ == "__main__":
     puzzle_input = get_puzzle_input(filename=__file__)
-    tree = create_tree(puzzle_input)
+    tree = create_filesystem_tree(puzzle_input)
     populate_dir_size(tree)
     print(f"Part 1 solution: {part1(tree, threshold= 100000)}")
-    print(f"Part 2 solution: {part2(tree, needed_space = 30000000, total_disk = 70000000)}")
+    print(f"Part 2 solution: {part2(tree, needed_space = 30000000, total_disk_size = 70000000)}")
