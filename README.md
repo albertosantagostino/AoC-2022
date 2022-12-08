@@ -17,6 +17,17 @@
 
 </div>
 
+## On The Nth Day Of Christmas, My True Love Sent To Me:
+
+1. An elf filled with chocolate
+2. An illegal Rock Paper Scissors tournament
+3. A band of smuggler elves
+4. Elves cleaning after a rave party
+5. A sketchy operation at the dock
+6. Another broken device
+7. Yet another broken computer
+8. A huge burning forest
+
 ## Suggested Christmas songs 🔔
 
 - [Chiron Beta Prime 🤖](https://www.youtube.com/watch?v=LUoDmRM2aJ0)
