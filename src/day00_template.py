@@ -7,12 +7,10 @@ from common.meta_utils import get_puzzle_input
 
 
 def part1(puzzle_input):
-    #return res
     ipdb.set_trace()
 
 
 def part2(puzzle_input):
-    #return res
     ipdb.set_trace()
 
 

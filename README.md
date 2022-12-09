@@ -12,6 +12,7 @@
 | [06](https://adventofcode.com/2022/day/6)  | ⭐  | ⭐  | [day06.py](src/day06.py)     | 🟢🟢 |
 | [07](https://adventofcode.com/2022/day/7)  | ⭐  | ⭐  | [day07.py](src/day07.py)     | 🟢🟢 |
 | [08](https://adventofcode.com/2022/day/8)  | ⭐  | ⭐  | [day08.py](src/day08.py)     | 🟢🟢 |
+| [09](https://adventofcode.com/2022/day/9)  | ⭐  | ⭐  | [day09.py](src/day09.py)     | 🟢🟢 |
 
 <sub>🟢 < 1 day | 🟡 1÷7 days | 🟠 = 7÷30 days | 💤 > 30 days</sub>
 
@@ -22,11 +23,12 @@
 1. An elf filled with chocolate
 2. An illegal Rock Paper Scissors tournament
 3. A band of smuggler elves
-4. Elves cleaning after a rave party
+4. Drunk elves cleaning after a rave party
 5. A sketchy operation at the dock
 6. Another broken device
 7. Yet another broken computer
 8. A huge burning forest
+9. An OSHA violation (missing safety railings)
 
 ## Suggested Christmas songs 🔔
 
