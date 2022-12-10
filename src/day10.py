@@ -39,6 +39,61 @@ def part1(puzzle_input, registers={'x': 1}):
             print(curr_cycle * registers['x'])
 
 
+def part2(puzzle_input, registers={'x': 1}):
+    curr_cycle = 0
+    command_queue = {}
+    line = ''
+    for instruction in puzzle_input:
+        instruction = instruction.split()
+        if instruction[0] == 'noop':
+            run_queue(curr_cycle, command_queue, registers)
+            curr_cycle += 1
+            if (registers['x'] >= (curr_cycle%40) - 1) and (registers['x'] <= (curr_cycle%40) + 1):
+                line += '#'
+            else:
+                line += '.'
+            if len(line) == 40:
+                print(line)
+                line = ''
+        elif 'add' in instruction[0]:
+            try:
+                xy = command_queue[curr_cycle + 2]
+            except:
+                command_queue[curr_cycle + 2] = []
+                xy = command_queue[curr_cycle + 2]
+            xy.append((instruction[0][-1], int(instruction[1])))
+            run_queue(curr_cycle, command_queue, registers)
+            if (registers['x'] >= (curr_cycle%40) - 1) and (registers['x'] <= (curr_cycle%40) + 1):
+                line += '#'
+            else:
+                line += '.'
+            if len(line) == 40:
+                print(line)
+                line = ''
+            curr_cycle += 1
+            run_queue(curr_cycle, command_queue, registers)
+            if (registers['x'] >= (curr_cycle%40) - 1) and (registers['x'] <= (curr_cycle%40) + 1):
+                line += '#'
+            else:
+                line += '.'
+            if len(line) == 40:
+                print(line)
+                line = ''
+            curr_cycle += 1
+
+    while (command_queue):
+        run_queue(curr_cycle, command_queue, registers)
+        print(command_queue)
+        curr_cycle += 1
+        if (registers['x'] >= curr_cycle - 1) or (registers['x'] <= curr_cycle + 1):
+            line += '#'
+        else:
+            line += '.'
+        if len(line) == 40:
+            print(line)
+            line = ''
+
+
 def run_queue(curr_cycle, command_queue, registers):
     try:
         curr_commands = command_queue[curr_cycle]
@@ -52,6 +107,5 @@ def run_queue(curr_cycle, command_queue, registers):
 
 if __name__ == "__main__":
     puzzle_input = get_puzzle_input(filename=__file__)
-
     print(f"Part 1 solution: {part1(puzzle_input)}")
-    #print(f"Part 2 solution: {part2(puzzle_input)}")
+    print(f"Part 2 solution: {part2(puzzle_input)}")
