@@ -13,6 +13,7 @@
 | [07](https://adventofcode.com/2022/day/7)  | ⭐  | ⭐  | [day07.py](src/day07.py)     | 🟢🟢 |
 | [08](https://adventofcode.com/2022/day/8)  | ⭐  | ⭐  | [day08.py](src/day08.py)     | 🟢🟢 |
 | [09](https://adventofcode.com/2022/day/9)  | ⭐  | ⭐  | [day09.py](src/day09.py)     | 🟢🟢 |
+| [10](https://adventofcode.com/2022/day10)  | ⭐  | ⭐  | [day10.py](src/day10.py)     | 🟢   |
 
 <sub>🟢 < 1 day | 🟡 1÷7 days | 🟠 = 7÷30 days | 💤 > 30 days</sub>
 
