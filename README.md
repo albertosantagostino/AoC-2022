@@ -2,19 +2,19 @@
 
 <div align="center">
 
-| Day                                        | 1   | 2   | 📃                           | ⏲️   |
-| ------------------------------------------ | :-: | :-: | :--------------------------: | :--: |
-| [01](https://adventofcode.com/2022/day/1)  | ⭐  | ⭐  | [day01.py](src/day01.py)     | 🟢🟢 |
-| [02](https://adventofcode.com/2022/day/2)  | ⭐  | ⭐  | [day02.py](src/day02.py)     | 🟢🟢 |
-| [03](https://adventofcode.com/2022/day/3)  | ⭐  | ⭐  | [day03.py](src/day03.py)     | 🟢🟢 |
-| [04](https://adventofcode.com/2022/day/4)  | ⭐  | ⭐  | [day04.py](src/day04.py)     | 🟢🟢 |
-| [05](https://adventofcode.com/2022/day/5)  | ⭐  | ⭐  | [day05.py](src/day05.py)     | 🟢🟢 |
-| [06](https://adventofcode.com/2022/day/6)  | ⭐  | ⭐  | [day06.py](src/day06.py)     | 🟢🟢 |
-| [07](https://adventofcode.com/2022/day/7)  | ⭐  | ⭐  | [day07.py](src/day07.py)     | 🟢🟢 |
-| [08](https://adventofcode.com/2022/day/8)  | ⭐  | ⭐  | [day08.py](src/day08.py)     | 🟢🟢 |
-| [09](https://adventofcode.com/2022/day/9)  | ⭐  | ⭐  | [day09.py](src/day09.py)     | 🟢🟢 |
-| [10](https://adventofcode.com/2022/day10)  | ⭐  | ⭐  | [day10.py](src/day10.py)     | 🟢🟢 |
-| [11](https://adventofcode.com/2022/day11)  | ⭐  | ⭐  | [day11.py](src/day11.py)     | 🟢   |
+| Day                                         | 1   | 2   | 📃                           | ⏲️   |
+| ------------------------------------------- | :-: | :-: | :--------------------------: | :--: |
+| [01](https://adventofcode.com/2022/day/1)   | ⭐  | ⭐  | [day01.py](src/day01.py)     | 🟢🟢 |
+| [02](https://adventofcode.com/2022/day/2)   | ⭐  | ⭐  | [day02.py](src/day02.py)     | 🟢🟢 |
+| [03](https://adventofcode.com/2022/day/3)   | ⭐  | ⭐  | [day03.py](src/day03.py)     | 🟢🟢 |
+| [04](https://adventofcode.com/2022/day/4)   | ⭐  | ⭐  | [day04.py](src/day04.py)     | 🟢🟢 |
+| [05](https://adventofcode.com/2022/day/5)   | ⭐  | ⭐  | [day05.py](src/day05.py)     | 🟢🟢 |
+| [06](https://adventofcode.com/2022/day/6)   | ⭐  | ⭐  | [day06.py](src/day06.py)     | 🟢🟢 |
+| [07](https://adventofcode.com/2022/day/7)   | ⭐  | ⭐  | [day07.py](src/day07.py)     | 🟢🟢 |
+| [08](https://adventofcode.com/2022/day/8)   | ⭐  | ⭐  | [day08.py](src/day08.py)     | 🟢🟢 |
+| [09](https://adventofcode.com/2022/day/9)   | ⭐  | ⭐  | [day09.py](src/day09.py)     | 🟢🟢 |
+| [10](https://adventofcode.com/2022/day/10)  | ⭐  | ⭐  | [day10.py](src/day10.py)     | 🟢🟢 |
+| [11](https://adventofcode.com/2022/day/11)  | ⭐  | ⭐  | [day11.py](src/day11.py)     | 🟢🟢 |
 
 <sub>🟢 < 1 day | 🟡 1÷7 days | 🟠 = 7÷30 days | 💤 > 30 days</sub>
 
@@ -32,6 +32,7 @@
 8. A huge burning forest
 9. An OSHA violation (missing safety railings)
 10. A really old broken television
+11. Monkeys teaching me modular arithmetic while mocking me
 
 ## Suggested Christmas songs 🔔
 
