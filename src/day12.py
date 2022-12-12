@@ -23,9 +23,9 @@ def compute_paths_lengths(paths_graph, end):
     while pq:
         cost, current = hp.heappop(pq)
         for point in paths_graph[current]:
-            if point not in paths_lengths or cost + 1 < paths_lengths[point]:
+            if (point not in paths_lengths) or (cost + 1 < paths_lengths[point]):
                 paths_lengths[point] = cost + 1
-                hp.heappush(pq, (cost + 1, point))
+                hp.heappush(pq, (paths_lengths[point], point))
     return paths_lengths
 
 
@@ -36,7 +36,7 @@ def create_graph(heightmap):
         graph[(xx, yy)] = []
         tiles = get_adjecent_tiles(heightmap, [xx, yy])
         tiles = list(
-            filter(lambda x, xx=xx, yy=yy: ord(heightmap[(x[0], x[1])]) - ord(heightmap[(xx, yy)]) >= -1, tiles))
+            filter(lambda tile, xx=xx, yy=yy: ord(heightmap[(tile[0], tile[1])]) - ord(heightmap[(xx, yy)]) >= -1, tiles))
         for tile in tiles:
             graph[(xx, yy)].append((tile[0], tile[1]))
     return graph
