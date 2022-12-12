@@ -397,7 +397,7 @@ python-versions = ">=3.6"
 
 [[package]]
 name = "traitlets"
-version = "5.6.0"
+version = "5.7.0"
 description = "Traitlets Python configuration system"
 category = "dev"
 optional = false
@@ -405,7 +405,9 @@ python-versions = ">=3.7"
 
 [package.extras]
 docs = ["myst-parser", "pydata-sphinx-theme", "sphinx"]
+lint = ["black (>=22.6.0)", "mdformat (>0.7)", "ruff (>=0.0.156)"]
 test = ["pre-commit", "pytest"]
+typing = ["mypy (>=0.990)"]
 
 [[package]]
 name = "typing-extensions"

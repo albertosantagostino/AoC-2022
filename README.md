@@ -15,6 +15,7 @@
 | [09](https://adventofcode.com/2022/day/9)   | ⭐  | ⭐  | [day09.py](src/day09.py)     | 🟢🟢 |
 | [10](https://adventofcode.com/2022/day/10)  | ⭐  | ⭐  | [day10.py](src/day10.py)     | 🟢🟢 |
 | [11](https://adventofcode.com/2022/day/11)  | ⭐  | ⭐  | [day11.py](src/day11.py)     | 🟢🟢 |
+| [12](https://adventofcode.com/2022/day/12)  | ⭐  | ⭐  | [day12.py](src/day12.py)     | 🟢🟢 |
 
 <sub>🟢 < 1 day | 🟡 1÷7 days | 🟠 = 7÷30 days | 💤 > 30 days</sub>
 
@@ -33,6 +34,7 @@
 9. An OSHA violation (missing safety railings)
 10. A really old broken television
 11. Monkeys teaching me modular arithmetic while mocking me
+12. An horribly long and convoluted hiking trail
 
 ## Suggested Christmas songs 🔔
 
