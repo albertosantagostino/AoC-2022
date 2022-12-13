@@ -36,7 +36,8 @@ def create_graph(heightmap):
         graph[(xx, yy)] = []
         tiles = get_adjecent_tiles(heightmap, [xx, yy])
         tiles = list(
-            filter(lambda tile, xx=xx, yy=yy: ord(heightmap[(tile[0], tile[1])]) - ord(heightmap[(xx, yy)]) >= -1, tiles))
+            filter(lambda tile, xx=xx, yy=yy: ord(heightmap[(tile[0], tile[1])]) - ord(heightmap[(xx, yy)]) >= -1,
+                   tiles))
         for tile in tiles:
             graph[(xx, yy)].append((tile[0], tile[1]))
     return graph

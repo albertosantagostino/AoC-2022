@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from common.fsnode import FSNode, FSMode, traverse_tree, populate_dir_size
+
 from common.meta_utils import get_puzzle_input
 
 
