@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+from ast import literal_eval
 from functools import cmp_to_key
 
 from common.meta_utils import get_puzzle_input
@@ -47,6 +48,6 @@ def compare_elements(packet1, packet2):
 
 if __name__ == "__main__":
     puzzle_input = get_puzzle_input(filename=__file__)
-    puzzle_input = [eval(line) for line in puzzle_input if line]
+    puzzle_input = [literal_eval(line) for line in puzzle_input if line]
     print(f"Part 1 solution: {part1(puzzle_input)}")
     print(f"Part 2 solution: {part2(puzzle_input)}")
