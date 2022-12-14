@@ -17,6 +17,7 @@
 | [11](https://adventofcode.com/2022/day/11)  | ⭐  | ⭐  | [day11.py](src/day11.py)     | 🟢🟢 |
 | [12](https://adventofcode.com/2022/day/12)  | ⭐  | ⭐  | [day12.py](src/day12.py)     | 🟢🟢 |
 | [13](https://adventofcode.com/2022/day/13)  | ⭐  | ⭐  | [day13.py](src/day13.py)     | 🟢🟢 |
+| [14](https://adventofcode.com/2022/day/14)  | ⭐  | ⭐  | [day14.py](src/day14.py)     | 🟢🟢 |
 
 <sub>🟢 < 1 day | 🟡 1÷7 days | 🟠 = 7÷30 days | 💤 > 30 days</sub>
 
@@ -37,6 +38,7 @@
 11. Monkeys teaching me modular arithmetic while mocking me
 12. An horribly long and convoluted hiking trail
 13. Someone sending a distress signal without checksumming it
+14. A dangerous and uninsured Indiana Jones expedition
 
 ## Suggested Christmas songs 🔔
 
