@@ -19,6 +19,9 @@
 | [13](https://adventofcode.com/2022/day/13)  | ⭐  | ⭐  | [day13.py](src/day13.py)     | 🟢🟢 |
 | [14](https://adventofcode.com/2022/day/14)  | ⭐  | ⭐  | [day14.py](src/day14.py)     | 🟢🟢 |
 | [15](https://adventofcode.com/2022/day/15)  | ⭐  |     | [day15.py](src/day15.py)     | 🟢   |
+| [16](https://adventofcode.com/2022/day/16)  |     |     | [day16.py](src/day16.py)     |      |
+| [17](https://adventofcode.com/2022/day/17)  |     |     | [day17.py](src/day17.py)     |      |
+| [18](https://adventofcode.com/2022/day/18)  | ⭐  |     | [day18.py](src/day18.py)     | 🟢   |
 
 <sub>🟢 < 1 day | 🟡 1÷7 days | 🟠 = 7÷30 days | 💤 > 30 days</sub>
 
