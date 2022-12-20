@@ -22,6 +22,8 @@
 | [16](https://adventofcode.com/2022/day/16)  |     |     | [day16.py](src/day16.py)     |      |
 | [17](https://adventofcode.com/2022/day/17)  |     |     | [day17.py](src/day17.py)     |      |
 | [18](https://adventofcode.com/2022/day/18)  | ⭐  |     | [day18.py](src/day18.py)     | 🟢   |
+| [19](https://adventofcode.com/2022/day/19)  |     |     | [day17.py](src/day19.py)     |      |
+| [20](https://adventofcode.com/2022/day/20)  | ⭐  | ⭐  | [day20.py](src/day20.py)     | 🟢🟢 |
 
 <sub>🟢 < 1 day | 🟡 1÷7 days | 🟠 = 7÷30 days | 💤 > 30 days</sub>
 
@@ -44,6 +46,11 @@
 13. Someone sending a distress signal without checksumming it
 14. A dangerous and uninsured Indiana Jones expedition
 15. ...
+16. ...
+17. ...
+18. ...
+19. ...
+20. A paranoid Santa encrypting coordinates in a weird way
 
 ## Suggested Christmas songs 🔔
 
