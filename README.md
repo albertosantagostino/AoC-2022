@@ -9,9 +9,9 @@
 | [03](https://adventofcode.com/2022/day/3)  | ⭐  | ⭐  | [day03.py](src/day03.py)  | 🟢🟢 | | [16](https://adventofcode.com/2022/day/16) |     |     | [day16.py](src/day16.py)  |      |
 | [04](https://adventofcode.com/2022/day/4)  | ⭐  | ⭐  | [day04.py](src/day04.py)  | 🟢🟢 | | [17](https://adventofcode.com/2022/day/17) |     |     | [day17.py](src/day17.py)  |      |
 | [05](https://adventofcode.com/2022/day/5)  | ⭐  | ⭐  | [day05.py](src/day05.py)  | 🟢🟢 | | [18](https://adventofcode.com/2022/day/18) | ⭐  |     | [day18.py](src/day18.py)  | 🟢   |
-| [06](https://adventofcode.com/2022/day/6)  | ⭐  | ⭐  | [day06.py](src/day06.py)  | 🟢🟢 | | [19](https://adventofcode.com/2022/day/19) |     |     | [day17.py](src/day19.py)  |      |
+| [06](https://adventofcode.com/2022/day/6)  | ⭐  | ⭐  | [day06.py](src/day06.py)  | 🟢🟢 | | [19](https://adventofcode.com/2022/day/19) |     |     | [day19.py](src/day19.py)  |      |
 | [07](https://adventofcode.com/2022/day/7)  | ⭐  | ⭐  | [day07.py](src/day07.py)  | 🟢🟢 | | [20](https://adventofcode.com/2022/day/20) | ⭐  | ⭐  | [day20.py](src/day20.py)  | 🟢🟢 |
-| [08](https://adventofcode.com/2022/day/8)  | ⭐  | ⭐  | [day08.py](src/day08.py)  | 🟢🟢 | | [21](https://adventofcode.com/2022/day/21) |     |     |                           |      |
+| [08](https://adventofcode.com/2022/day/8)  | ⭐  | ⭐  | [day08.py](src/day08.py)  | 🟢🟢 | | [21](https://adventofcode.com/2022/day/21) | ⭐  | ⭐  | [day21.py](src/day21.py)  | 🟢🟢 |
 | [09](https://adventofcode.com/2022/day/9)  | ⭐  | ⭐  | [day09.py](src/day09.py)  | 🟢🟢 | | [22](https://adventofcode.com/2022/day/22) |     |     |                           |      |
 | [10](https://adventofcode.com/2022/day/10) | ⭐  | ⭐  | [day10.py](src/day10.py)  | 🟢🟢 | | [23](https://adventofcode.com/2022/day/23) |     |     |                           |      |
 | [11](https://adventofcode.com/2022/day/11) | ⭐  | ⭐  | [day11.py](src/day11.py)  | 🟢🟢 | | [24](https://adventofcode.com/2022/day/24) |     |     |                           |      |
@@ -22,33 +22,37 @@
 
 </div>
 
-## On The Nth Day Of Christmas, My True Love Sent To Me:
+## 🎵 On the Nth day of Christmas, my true love sent to me 🎶
 
 1. An elf filled with chocolate
-2. An illegal Rock Paper Scissors tournament
+2. An illegal "rock paper scissors" tournament
 3. A band of smuggler elves
 4. Drunk elves cleaning after a rave party
 5. A sketchy operation at the dock
 6. Another broken device
-7. Yet another broken computer
-8. A huge burning forest
+7. Yet another broken computer (IT department must be really bad)
+8. [A huge burning forest](https://giphy.com/search/elmo-fire/)
 9. An OSHA violation (missing safety railings)
 10. A really old broken television
 11. Monkeys teaching me modular arithmetic while mocking me
 12. An horribly long and convoluted hiking trail
 13. Someone sending a distress signal without checksumming it
-14. A dangerous and uninsured Indiana Jones expedition
+14. A dangerous and uninsured Indiana Jones style expedition
 15. ...
 16. ...
 17. ...
 18. ...
 19. ...
 20. A paranoid Santa encrypting coordinates in a weird way
+21. Polyglot elephants (not so proficient in listening) 
+
+*Only added when both parts are completed, as it seems appropriate to joke only about totally resolved things (in general)*
 
 ## Suggested Christmas songs 🔔
 
 - [Chiron Beta Prime 🤖](https://www.youtube.com/watch?v=LUoDmRM2aJ0)
 - [The Night Santa Went Crazy 🗡️](https://www.youtube.com/watch?v=0FJU4GrXztE)
+- [Grandma Got Run over by a Reindeer 👵🦌](https://www.youtube.com/watch?v=MgIwLeASnkw)
 
 ## How to run
 
